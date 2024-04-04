@@ -1,0 +1,69 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.title h1{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 100px;
+}
+.all.recipe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+}
+.first.recipe,.second.recipe,.third.recipe {
+  display: flex;
+  position: relative;
+  height: 150px;
+  width: 300px;
+  background-color: rgb(254, 229, 218);
+  padding: 5px;
+  border-radius: 10px 50px 50px 10px;
+  transition: transform 0.2s;
+}
+.first.recipe:hover,
+.second.recipe:hover,
+.third.recipe:hover {
+  transform: scale(1.03);
+}
+.first a,.second a ,.third a{
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+  font-weight: bold;
+}
+.hawaiianPizza.image {
+  position: absolute;
+  height: auto;
+  width: 170px;
+  left: 200px;
+  bottom: -5px;
+  filter: drop-shadow(3px 8px 5px rgba(0,0,0,0.3));
+}
+.crispyFriedChicken.image {
+  position:absolute;
+  height: auto;
+  width: 180px;
+  left: 190px;
+  bottom: -16px;
+}
+.chocolatePeanutButterBananaSmoothies.image {
+  position: absolute;
+  height: auto;
+  width: 220px;
+  left: 185px;
+  bottom: -28px;
+  filter: drop-shadow(3px 8px 5px rgba(0,0,0,0.3));
+}

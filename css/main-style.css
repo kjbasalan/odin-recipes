@@ -28,9 +28,9 @@
   position: relative;
   height: 150px;
   width: 300px;
-  background-color: rgb(254, 229, 218);
+  background-color: rgb(236, 174, 148);
   padding: 5px;
-  border-radius: 10px 50px 50px 10px;
+  border-radius: 15px 50px 50px 15px;
   transition: transform 0.2s;
 }
 .first.recipe:hover,
@@ -38,11 +38,15 @@
 .third.recipe:hover {
   transform: scale(1.03);
 }
-.first a,.second a ,.third a{
+.text,.href{
   text-decoration: none;
   font-size: 22px;
   color: black;
   font-weight: bold;
+}
+.text {
+  margin: 0;
+  padding: 0;
 }
 .hawaiianPizza.image {
   position: absolute;
@@ -52,14 +56,14 @@
   bottom: -5px;
   filter: drop-shadow(3px 8px 5px rgba(0,0,0,0.3));
 }
-.crispyFriedChicken.image {
+.CFChicken.image {
   position:absolute;
   height: auto;
   width: 180px;
   left: 190px;
   bottom: -16px;
 }
-.chocolatePeanutButterBananaSmoothies.image {
+.CPBBSmoothies.image {
   position: absolute;
   height: auto;
   width: 220px;
